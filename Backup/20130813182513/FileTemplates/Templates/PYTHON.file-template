@@ -1,0 +1,19 @@
+<template>
+	<!-- Or you set a path to a seperate Template File here -->
+	<file>PYTHON.py</file>
+
+	<!-- The filename for the new File, you can use the arguments to make it dynamic -->
+	<filename>$name.py</filename>
+
+	<!-- Default Path to create the new file inside your current Project -->
+	<!-- you can use the arguments to make it dynamic -->
+	<!-- <path></path> -->
+
+	<!-- Optional: Add as much arguments as you need, they will be asked in the order specified -->
+	<arguments>
+		<name>File Name:</name>
+		<brief>Brief</brief>
+		<year>Year:</year>
+		<author>Author</author>
+	</arguments>
+</template>
